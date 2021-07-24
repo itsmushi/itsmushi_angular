@@ -1,0 +1,96 @@
+.example-spacer {
+    flex: 1 1 auto;
+   
+  }
+
+mat-toolbar{
+    background: #1c2834;
+
+ 
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0 16px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.nav-btn{
+    color: #f8f9fa;
+}
+
+.pub-body{
+ 
+    align-content: center;
+display: flex;
+flex-wrap: wrap;
+
+margin-left: auto;
+margin-right: auto;
+
+width: 800px;
+height: 100%;
+   
+}
+
+.pub-body-item{
+    /* display: block; */
+    margin-top: 50px;
+    color: #f8f9fa;
+}
+
+.pub-body-outside{
+    background-image:  url("/assets/hero-bg-static.svg");
+    height: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: #2baaf8;
+}
+
+
+mat-form-field{
+    width: 700px;
+ 
+}
+
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: white;
+  }
+  /* Font color */
+  
+
+  .mat-form-field-outline {
+   border-radius: 40px;
+
+   border: 40px solid #1c2834;
+
+
+  
+  }
+
+ 
+  .mat-form-field-appearance-outline .mat-form-field-outline {
+    display: flex;
+    position: absolute;
+    top: .25em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: red;
+}
+  .search_pack{
+      padding-left: 10px;
+  }
+
+
+  .search_pack::placeholder {
+    color: #887c6e
+  }
